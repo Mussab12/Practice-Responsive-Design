@@ -1,0 +1,106 @@
+/*For resetting Css*/
+* {
+  padding: 0;
+  margin: 0;
+}
+/* Navigation menu*/
+
+.navigation li {
+  list-style: none;
+}
+ul {
+  display: flex;
+}
+.navigation ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 24px 40px;
+
+  color: white;
+}
+
+.navigation::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.4;
+}
+.navigation {
+  display: flex;
+  position: sticky;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+/*Home Section*/
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 160px 108px;
+}
+p {
+  color: white;
+}
+#home::before {
+  content: "";
+  background: url("/css/pose-muscle-muscle-rod-press-hd-wallpaper-preview.jpg")
+    no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 77%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.89;
+}
+
+/*Utility classes*/
+.h_primary {
+  font-size: 3.5rem;
+  color: white;
+}
+.center {
+  text-align: center;
+}
+.h_primary2 {
+  font-size: 3.5rem;
+  color: black;
+}
+.h_secondary {
+  font-size: 2.5rem;
+}
+.p_all {
+  color: black;
+  padding: 8px;
+  text-align: center;
+}
+
+/*Product Section*/
+
+#product {
+  margin: 27px 5px;
+  display: flex;
+}
+#product img {
+  display: block;
+  height: 156px;
+  width: 256px;
+  margin: auto;
+}
+#product .box {
+  border: 2px solid red;
+  width: 900px;
+  padding: 19px 1px;
+  margin: 10px;
+  border-radius: 74px;
+  background-color: #7383ca29;
+}
+
+h2 {
+  font-size: 2.3rem;
+}
