@@ -1,6 +1,6 @@
 /*navbar*/
 body {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .navigation ul li a {
   font-size: 1rem;
