@@ -15,10 +15,14 @@ body {
   width: 400px;
 }
 #product .box {
-  width: 359px;
+  width: 350px;
+  height: 309px;
 }
 #product .box img {
   width: 140px;
+}
+#product-container {
+  margin: -38px 2px;
 }
 
 .box {
