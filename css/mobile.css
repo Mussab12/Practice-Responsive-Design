@@ -1,5 +1,7 @@
 /*navbar*/
-
+#home::before {
+  height:446px;
+}
 
 .navigation ul li a {
   font-size: 1rem;
