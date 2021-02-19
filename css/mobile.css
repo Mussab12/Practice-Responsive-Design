@@ -17,6 +17,7 @@
 }
 #product .box {
   position: absolute;
+  z-index:-1;
     width: 350px;
     height: 309px;
 }
