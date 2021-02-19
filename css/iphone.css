@@ -18,7 +18,7 @@
 }
 #product {
   flex-direction: column;
-  width: 210px;
+  width: 165px;
 }
 #product .box {
   position: relative;
