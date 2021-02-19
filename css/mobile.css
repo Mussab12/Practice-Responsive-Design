@@ -21,7 +21,7 @@
   width: 400px;
 }
 #product .box {
-  position: absolute;
+  position: relative;
   z-index:-1;
     width: 350px;
     height: 309px;
@@ -30,7 +30,7 @@
   width: 140px;
 }
 #product-container {
-  margin: -38px 2px;
+  margin: -16px 3px; 
 }
 
 .box {
